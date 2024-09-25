@@ -12,7 +12,7 @@
 
 usuarios = []
 
-for i in range(1,8):
+for nomes in range(1,8):
     usuarios.append(str(input("digite o nome dos convidados!  ")))
 
 remover = str(input("Deseja remover algum convidado da lista? (sim/não): "))
